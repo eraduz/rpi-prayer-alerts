@@ -20,7 +20,7 @@ def getPrayerTimes():
     if r.status_code != 200:
         sys.exit(f"Something went wrong, API returned status code: {r.status_code}", 1)
 
-    print('-------------------------------------------')
+    
     times = r.json()["times"]
     prayer_times = []
 
