@@ -9,7 +9,7 @@ import config as cfg
 
 def playAdhan():
     print("It's prayer time!")
-    playsound(f"sound/beep.mp3")
+    playsound("sound/adhan.mp3")
     return schedule.CancelJob
 
 
