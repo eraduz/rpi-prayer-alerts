@@ -39,7 +39,7 @@ def getPrayerTimes():
         f"Dhuhr: {prayer_times[2]}\n"
         f"'Asr: {prayer_times[3]}\n"
         f"Maghrib: {prayer_times[4]}\n"
-        f"'Isha: {prayer_times[5]}\n ")
+        f"'Isha: {prayer_times[5]}")
 
     for i in range(0, len(prayer_times)):
         if i != 1:
