@@ -38,6 +38,12 @@ When you succesfully cloned the repository, change the directory to the reposito
 python3 -m pip install -r requirements.txt
 ```
 
+Then create a file called `config.py` using `touch config.py` or `nano config.py` and inside that file copy and paste this:
+```python
+url = "https://izaachen.de/api/times/<year>/<your country>/<city>"
+```
+The API I used for this is the same API my local mosque uses, click [here](https://izaachen.de/api/times/2021/) to view the API.
+
 And now you can run the file by using: `python3 main.py` or since I have integrated [Shebang](https://www.wikiwand.com/en/Shebang_(Unix)) you can also do `./main.py`
 but you would have to the file executable by running: `chmod +x main.py`.
 
